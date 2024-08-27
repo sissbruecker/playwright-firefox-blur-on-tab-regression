@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch"
+    "start": "web-dev-server"
   },
   "devDependencies": {
-    "@playwright/test": "1.43.1",
+    "@playwright/test": "1.44.0",
     "@types/node": "^22.5.0",
     "@web/dev-server": "^0.4.6"
   }

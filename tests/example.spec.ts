@@ -7,4 +7,3 @@ test('runs blur', async ({ page }) => {
 
   await expect(page.getByText("Input was blurred")).toBeVisible();
 });
-
