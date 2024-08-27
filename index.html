@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+</head>
+<body>
+
+<label for="test">test</label>
+<input id="test">
+
+<script>
+  const input = document.getElementById('test');
+  input.addEventListener('blur', () => {
+    const text = document.createElement('p');
+    text.textContent = "Input was blurred";
+    document.body.appendChild(text);
+  })
+</script>
+</body>
+</html>
